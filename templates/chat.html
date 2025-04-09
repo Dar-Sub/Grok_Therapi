@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Therapy Doctor Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <h2>Your Sessions</h2>
+            <button class="new-session-btn" onclick="showCreateSessionModal()">New Session</button>
+            <div class="session-list" id="sessionList"></div>
+        </div>
+        <div class="chat-container">
+            <header>
+                <h1>Therapy Doctor Chat</h1>
+                <select id="modelSelect" onchange="updateModel()">
+                    <option value="grok-2" selected>Grok-2</option>
+                    <option value="grok-beta">Grok-Beta</option>
+                    <option value="grok-3">Grok-3</option>
+                </select>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+                <button class="clear-btn" onclick="clearHistory()">Clear Chat</button>
+            </header>
+            <div class="chat-area" id="chatBox">
+                <div class="loading-indicator" id="loadingIndicator" style="display: none;">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="input-container">
+                <textarea id="messageInput" placeholder="Ask a therapy-related question..." rows="1" oninput="autoResize(this)" onkeypress="if(event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); sendMessage(); }"></textarea>
+                <button class="send-btn" onclick="sendMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="createSessionModal">
+        <div class="modal-content">
+            <h2>Create a session</h2>
+            <label for="sessionTitle">Session Title</label>
+            <input type="text" id="sessionTitle" placeholder="Define your session with a compelling title...">
+            <button onclick="createSession()">Create</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

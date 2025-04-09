@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - GrokTherapi Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <div class="login-container">
+        <img src="/static/favicon.ico" alt="Logo">
+        <h1>GrokTherapi Chat</h1>
+        <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+        <div class="login-box">
+            <input id="username" placeholder="Username" type="text">
+            <input id="password" placeholder="Password" type="password">
+            <div class="button-group">
+                <button onclick="signup()">Sign Up</button>
+                <button onclick="login()">Login</button>
+            </div>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script>
+        async function signup() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const response = await fetch("/signup", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password })
+            });
+            const data = await response.json();
+            document.getElementById("message").textContent = data.message || data.error;
+            if (response.ok) setTimeout(() => login(), 1000);
+        }
+
+        async function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const response = await fetch("/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password })
+            });
+            const data = await response.json();
+            document.getElementById("message").textContent = data.message || data.error;
+            if (response.ok) window.location.href = "/";
+        }
+    </script>
+</body>
+</html>
