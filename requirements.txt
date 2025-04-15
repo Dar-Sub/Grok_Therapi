@@ -3,3 +3,6 @@ flask-limiter
 werkzeug
 requests
 python-dotenv
+deep-translator
+langdetect
+googletrans==4.0.0-rc1

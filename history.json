@@ -58,109 +58,55 @@
     "TestUser3": [],
     "Tester": [
         {
-            "title": "Early",
-            "messages": [
-                {
-                    "user": "Can we solve mathematical questions?",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "What about some data analysis",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "What about educational solutions?",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "I want a car",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "I have an issue with my immediate environment",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "Give me steps on how to treat and deal with emotional disorder",
-                    "grok": "Treating and dealing with an emotional disorder involves a multi-faceted approach that can be tailored to individual needs. Here are some general steps that can help in managing and treating emotional disorders:\n\n1. **Seek Professional Help**: The first step is to consult with a mental health professional such as a therapist, psychologist, or psychiatrist. They can provide a proper diagnosis and recommend a treatment plan that may include therapy, medication, or a combination of both.\n\n2. **Therapy**: Various forms of therapy can be effective. Some common types include:\n   - **Cognitive Behavioral Therapy (CBT)**: Helps in identifying and changing negative thought patterns and behaviors.\n   - **Dialectical Behavior Therapy (DBT)**: Useful for managing intense emotions and improving relationships.\n   - **Psychodynamic Therapy**: Focuses on exploring unconscious patterns to better understand emotions and behaviors.\n\n3. **Medication**: Depending on the type of emotional disorder, medication such as antidepressants, anti-anxiety drugs, or mood stabilizers might be prescribed. It's important to work closely with a psychiatrist to monitor and adjust medications as needed.\n\n4. **Lifestyle Changes**: Incorporating healthy habits can significantly impact emotional well-being:\n   - **Regular Exercise**: Physical activity can boost mood and reduce anxiety and depression.\n   - **Healthy Diet**: Nutrition affects brain function and mood, so eating a balanced diet can help.\n   - **Sleep**: Ensuring adequate and quality sleep is crucial for mental health.\n\n5. **Mindfulness and Relaxation Techniques**: Practices such as meditation, deep breathing exercises, and yoga can help manage stress and improve emotional regulation.\n\n6. **Social Support**: Building a support network of friends, family, or support groups can provide emotional support and reduce feelings of isolation.\n\n7. **Education and Self-Help**: Learning about your specific emotional disorder can empower you to manage it better. Self-help books, online resources, and workshops can be beneficial.\n\n8. **Set Realistic Goals**: Work with your therapist to set achievable goals for your treatment and recovery. Celebrate small victories to maintain motivation.\n\n9. **Regular Monitoring and Adjustment**: Emotional disorders can change over time, so regular check-ins with your mental health professional are important to adjust your treatment plan as needed.\n\n10. **Crisis Management**: Have a plan in place for managing acute episodes or crises. This might include emergency contacts, a safety plan, or knowing when to seek immediate help.\n\nRemember, recovery is a journey, and it's important to be patient and compassionate with yourself. If you're struggling to find the right treatment or feel overwhelmed, don't hesitate to reach out for help."
-                },
-                {
-                    "user": "I am sad",
-                    "grok": "I'm sorry to hear that you're feeling sad. It's completely normal to feel this way at times. Would you like to talk about what's been making you feel this way? Sharing your feelings can sometimes help in understanding them better and finding ways to cope."
-                },
-                {
-                    "user": "How do i deal with ptsd",
-                    "grok": "Dealing with PTSD (Post-Traumatic Stress Disorder) can be challenging, but there are effective strategies and treatments that can help. Here are some steps you might consider:\n\n1. **Seek Professional Help**: It's important to work with a mental health professional who specializes in trauma. Therapies like Cognitive Behavioral Therapy (CBT), specifically Trauma-Focused CBT, Eye Movement Desensitization and Reprocessing (EMDR), and Prolonged Exposure Therapy are evidence-based treatments for PTSD.\n\n2. **Build a Support System**: Connecting with friends, family, or support groups can provide emotional support and understanding. Sometimes, sharing your experiences with others who have gone through similar situations can be very healing.\n\n3. **Self-Care**: Engage in activities that promote relaxation and well-being, such as exercise, meditation, or hobbies. Good nutrition and adequate sleep are also crucial.\n\n4. **Mindfulness and Grounding Techniques**: These can help manage flashbacks and anxiety. Techniques like deep breathing, mindfulness meditation, and grounding exercises can bring you back to the present moment when you feel overwhelmed.\n\n5. **Journaling**: Writing about your thoughts and feelings can be a therapeutic way to process your experiences and emotions.\n\n6. **Medication**: In some cases, medication can be helpful in managing symptoms of PTSD. This should be discussed with a psychiatrist or a doctor.\n\n7. **Education**: Learning about PTSD can help you understand your symptoms and feel more in control of your recovery. Knowledge can empower you to take active steps in your healing process.\n\n   Remember, recovery from PTSD is a journey, and it's okay to have setbacks. Be patient with yourself and keep working with your therapist to find what works best for you. If you're currently in crisis, please reach out to a crisis hotline or emergency services for immediate support."
-                },
-                {
-                    "user": "Who are you?",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "Who develoeped you?",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "I am feeling sick today",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "I am feeling sad today",
-                    "grok": "I'm sorry to hear that you're feeling sad today. It's completely normal to have days where you feel down. Would you like to talk about what might be contributing to your sadness? Sometimes, sharing what's on your mind can help lighten the emotional load."
-                },
-                {
-                    "user": "I am depressed and how do i feel happy?",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                },
-                {
-                    "user": "I am depressed",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                }
-            ]
-        },
-        {
             "title": "Morning",
             "messages": [
                 {
-                    "user": "I am depressed",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
+                    "user": "I am not feeling well",
+                    "user_en": "I am not feeling well",
+                    "grok": "I'm sorry to hear that you're not feeling well. Can you tell me more about what you're experiencing? Are these feelings related to your mental or emotional state, or are you feeling physically unwell? If it's related to your mental health, I'm here to help.",
+                    "grok_en": "I'm sorry to hear that you're not feeling well. Can you tell me more about what you're experiencing? Are these feelings related to your mental or emotional state, or are you feeling physically unwell? If it's related to your mental health, I'm here to help."
                 },
                 {
-                    "user": "I am sad",
-                    "grok": "I'm sorry to hear that you're feeling sad. It's completely normal to experience sadness, but it's important to address these feelings. Can you tell me more about what's been going on that might be contributing to your sadness? This can help us explore ways to cope and feel better."
+                    "user": "\u0627\u0646\u0627 \u0644\u0627 \u0627\u0634\u0639\u0631 \u0628\u0623\u0646\u0646\u064a \u0628\u062e\u064a\u0631",
+                    "user_en": "I don't feel fine",
+                    "grok": "\u0623\u0646\u0627 \u0622\u0633\u0641 \u0644\u0633\u0645\u0627\u0639 \u0623\u0646\u0643 \u0644\u0627 \u062a\u0634\u0639\u0631 \u0628\u0627\u0644\u0631\u0627\u062d\u0629. \u0647\u0644 \u064a\u0645\u0643\u0646 \u0623\u0646 \u062a\u062e\u0628\u0631\u0646\u064a \u0627\u0644\u0645\u0632\u064a\u062f \u0639\u0645\u0627 \u062a\u0648\u0627\u062c\u0647\u0647\u061f \u0647\u0644 \u0647\u0646\u0627\u0643 \u0645\u0634\u0627\u0639\u0631 \u0623\u0648 \u0645\u0648\u0627\u0642\u0641 \u0645\u062d\u062f\u062f\u0629 \u062a\u0632\u0639\u062c\u0643\u061f",
+                    "grok_en": "I'm sorry to hear that you're not feeling fine. Can you tell me more about what you're experiencing? Are there specific feelings or situations that are troubling you?"
                 },
                 {
-                    "user": "how can i deal with ptsd",
-                    "grok": "Dealing with PTSD (Post-Traumatic Stress Disorder) can be challenging, but there are several strategies and treatments that can help manage symptoms and improve your quality of life. Here are some steps you can consider:\n\n1. **Seek Professional Help**: It's important to consult with a mental health professional, such as a therapist or psychiatrist, who specializes in trauma. They can provide a proper diagnosis and tailor a treatment plan to your needs.\n\n2. **Therapy**:\n   - **Cognitive Behavioral Therapy (CBT)**: This is often the first line of treatment for PTSD. It helps you understand and change thought patterns that lead to harmful behaviors or emotional distress.\n   - **Prolonged Exposure (PE) Therapy**: This type of therapy helps you face and gain control of fear and distress related to trauma memories.\n   - **Eye Movement Desensitization and Reprocessing (EMDR)**: This therapy involves focusing on traumatic memories while undergoing bilateral stimulation (such as eye movements or hand taps) to help process and integrate these memories.\n\n3. **Medication**: Sometimes, medication can be helpful in managing symptoms of PTSD. Antidepressants, anti-anxiety medications, and sleep aids might be prescribed by a psychiatrist.\n\n4. **Self-Care and Coping Strategies**:\n   - **Mindfulness and Relaxation Techniques**: Practices like meditation, deep breathing, and yoga can help manage anxiety and stress.\n   - **Regular Exercise**: Physical activity can improve mood and reduce symptoms of PTSD.\n   - **Healthy Sleep Habits**: Good sleep is crucial for mental health. Establish a regular sleep routine and create a restful environment.\n   - **Social Support**: Connect with friends, family, or support groups. Sharing your experiences with others who understand can be very therapeutic.\n\n5. **Avoiding Triggers**: If certain situations, places, or people trigger your symptoms, try to avoid them if possible. However, therapy can also help you gradually confront and manage these triggers.\n\n6. **Journaling**: Writing about your thoughts and feelings can be a helpful way to process your experiences and track your progress.\n\n   Remember, recovery from PTSD is a journey, and it's okay to have setbacks. Be patient with yourself and continue to seek support from professionals and loved ones. If you're currently in a crisis, please reach out to emergency services or a crisis hotline in your area."
+                    "user": "Ninahisi huzuni",
+                    "user_en": "Ninahisi huzuni",
+                    "grok": "Samahani kusikia hivyo. Inawezekana kuzungumza zaidi kuhusu hisia zako na sababu za huzuni hii? Inaweza kusaidia kuelewa na kutatua matatizo yako ya kisaikolojia.",
+                    "grok_en": "Samahani kusikia hivyo. Inawezekana kuzungumza zaidi kuhusu hisia zako na sababu za huzuni hii? Inaweza kusaidia kuelewa na kutatua matatizo yako ya kisaikolojia."
                 },
                 {
-                    "user": "I am depressed",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
+                    "user": "Ninahisi huzuni",
+                    "user_en": "Ninahisi huzuni",
+                    "grok": "Samahani kusikia hivyo. Inawezekana kuzungumza zaidi kuhusu hisia zako na sababu inayoweza kusababisha huzuni hii? Inawezekana kugawanya mawazo na hisia kusaidia kupata njia ya kukabiliana nayo. Je, kuna kitu maalum kinachokufanya uhisi hivi?",
+                    "grok_en": "Samahani kusikia hivyo. Inawezekana kuzungumza zaidi kuhusu hisia zako na sababu inayoweza kusababisha huzuni hii? Inawezekana kugawanya mawazo na hisia kusaidia kupata njia ya kukabiliana nayo. Je, kuna kitu maalum kinachokufanya uhisi hivi?"
                 },
                 {
-                    "user": "I am depressed",
-                    "grok": "I'm sorry to hear that you're feeling depressed. It's important to address these feelings, and I'm here to help. Can you tell me more about what you've been experiencing lately? Are there specific thoughts or situations that have been particularly challenging for you?"
+                    "user": "\u092e\u0941\u091d\u0947 \u091a\u093f\u0902\u0924\u093e \u0939\u094b \u0930\u0939\u0940 \u0939\u0948\u0964",
+                    "user_en": "I am worried.",
+                    "grok": "\u0915\u0908 \u092c\u093e\u0930 \u091a\u093f\u0902\u0924\u093f\u0924 \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u0928\u093e \u092a\u0942\u0930\u0940 \u0924\u0930\u0939 \u0938\u0947 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u0948\u0964 \u0915\u094d\u092f\u093e \u0906\u092a \u092e\u0941\u091d\u0947 \u0914\u0930 \u0905\u0927\u093f\u0915 \u092c\u0924\u093e \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0915\u093f \u0906\u092a\u0915\u0947 \u0926\u093f\u092e\u093e\u0917 \u092e\u0947\u0902 \u0939\u093e\u0932 \u0939\u0940 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0939\u0948? \u0906\u092a\u0915\u0940 \u091a\u093f\u0902\u0924\u093e \u0915\u0947 \u0938\u094d\u0930\u094b\u0924 \u0915\u094b \u0938\u092e\u091d\u0928\u0947 \u0938\u0947 \u0939\u092e\u0947\u0902 \u0907\u0938\u0947 \u092a\u094d\u0930\u092d\u093e\u0935\u0940 \u0922\u0902\u0917 \u0938\u0947 \u0938\u0902\u092c\u094b\u0927\u093f\u0924 \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u092e\u093f\u0932 \u0938\u0915\u0924\u0940 \u0939\u0948\u0964",
+                    "grok_en": "It's completely normal to feel worried at times. Can you tell me more about what's been on your mind lately? Understanding the source of your worry can help us address it effectively."
                 },
                 {
-                    "user": "I am not happy today",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
-                }
-            ]
-        },
-        {
-            "title": "Afternoon",
-            "messages": [
-                {
-                    "user": "I am sad",
-                    "grok": "It sounds like you're feeling sad, and I'm here to help you through that. Can you tell me more about what's been going on that might be contributing to these feelings? It's important to explore these emotions and understand them better so we can work on ways to feel better."
+                    "user": "Ninahisi huzuni",
+                    "user_en": "Ninahisi huzuni",
+                    "grok": "Pole sana kwa hali yako ya huzuni. Inawezekana kuzungumza zaidi kuhusu mambo yanayokufanya kuhisi hivyo? Inaweza kusaidia kuelewa zaidi na kujadili njia za kukusaidia kupitia hali hii. Je, unahisi huzuni kwa sababu fulani maalum, au ni hisia zinazokuja bila sababu thabiti?",
+                    "grok_en": "Pole sana kwa hali yako ya huzuni. Inawezekana kuzungumza zaidi kuhusu mambo yanayokufanya kuhisi hivyo? Inaweza kusaidia kuelewa zaidi na kujadili njia za kukusaidia kupitia hali hii. Je, unahisi huzuni kwa sababu fulani maalum, au ni hisia zinazokuja bila sababu thabiti?"
                 },
                 {
-                    "user": "I am sick",
-                    "grok": "I'm sorry, I can only answer questions related to therapy and mental health. Please ask a therapy-related question."
+                    "user": "I am not feeling well",
+                    "user_en": "I am not feeling well",
+                    "grok": "I'm sorry to hear that you're not feeling well. Can you tell me more about what you're experiencing? Are these feelings related to your emotional or mental state?",
+                    "grok_en": "I'm sorry to hear that you're not feeling well. Can you tell me more about what you're experiencing? Are these feelings related to your emotional or mental state?"
                 },
                 {
-                    "user": "I am sick",
-                    "grok": "I'm sorry to hear that you're not feeling well. If you're referring to physical sickness, I would recommend seeing a medical doctor. However, if you're feeling emotionally or mentally unwell, I'm here to help. Could you tell me more about how you're feeling emotionally or mentally?"
+                    "user": "\u092e\u0941\u091d\u0947 \u091a\u093f\u0902\u0924\u093e \u0939\u094b \u0930\u0939\u0940 \u0939\u0948\u0964",
+                    "user_en": "I am worried.",
+                    "grok": "\u0915\u0908 \u092c\u093e\u0930 \u091a\u093f\u0902\u0924\u093f\u0924 \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u0928\u093e \u092a\u0942\u0930\u0940 \u0924\u0930\u0939 \u0938\u0947 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u0948\u0964 \u0915\u094d\u092f\u093e \u0906\u092a \u092e\u0941\u091d\u0947 \u0914\u0930 \u0905\u0927\u093f\u0915 \u092c\u0924\u093e \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0915\u093f \u0906\u092a\u0915\u0947 \u0926\u093f\u092e\u093e\u0917 \u092e\u0947\u0902 \u0939\u093e\u0932 \u0939\u0940 \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u0939\u0948? \u0906\u092a\u0915\u0940 \u091a\u093f\u0902\u0924\u093e \u0915\u0947 \u0938\u094d\u0930\u094b\u0924 \u0915\u094b \u0938\u092e\u091d\u0928\u093e \u0939\u092e\u0947\u0902 \u0907\u0938\u0947 \u0914\u0930 \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u092d\u093e\u0935\u0940 \u0922\u0902\u0917 \u0938\u0947 \u0938\u0902\u092c\u094b\u0927\u093f\u0924 \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0948\u0964",
+                    "grok_en": "It's completely normal to feel worried at times. Can you tell me more about what's been on your mind lately? Understanding the source of your worry can help us address it more effectively."
                 }
             ]
         }
@@ -199,6 +145,37 @@
                 {
                     "user": "I have ptsd",
                     "grok": "I'm sorry to hear that you're dealing with PTSD. It's important to recognize that PTSD can be very challenging, but there are effective treatments available. Have you been diagnosed by a mental health professional, or are you seeking information on how to manage your symptoms?"
+                }
+            ]
+        }
+    ],
+    "TestUser4": [
+        {
+            "title": "New",
+            "messages": [
+                {
+                    "user": "i am sad and depressed",
+                    "user_en": "i am sad and depressed",
+                    "grok": "I'm sorry to hear that you're feeling this way. It's important to acknowledge your feelings and know that you're not alone. Can you tell me more about what you've been experiencing lately? Are there specific thoughts or situations that have been contributing to your sadness and depression?\n\nIt might be helpful to explore these feelings further, perhaps by keeping a journal of your thoughts and emotions, or by talking to a therapist who can provide professional support. If you're feeling overwhelmed, it's also important to reach out to someone you trust or a crisis helpline. Would you like some suggestions on how to start addressing these feelings?",
+                    "grok_en": "I'm sorry to hear that you're feeling this way. It's important to acknowledge your feelings and know that you're not alone. Can you tell me more about what you've been experiencing lately? Are there specific thoughts or situations that have been contributing to your sadness and depression?\n\nIt might be helpful to explore these feelings further, perhaps by keeping a journal of your thoughts and emotions, or by talking to a therapist who can provide professional support. If you're feeling overwhelmed, it's also important to reach out to someone you trust or a crisis helpline. Would you like some suggestions on how to start addressing these feelings?"
+                },
+                {
+                    "user": "\u0565\u057d \u057f\u056d\u0578\u0582\u0580 \u0565\u0574 \u0587 \u0568\u0576\u056f\u0573\u057e\u0561\u056e",
+                    "user_en": "I am sad and depressed",
+                    "grok": "Mul on kahju kuulda, et tunnete end nii. Oluline on tegeleda kurbuse ja depressiooni tunnetega. Kas oskate mulle rohkem \u00f6elda, mida te kogete? Kas on konkreetseid m\u00f5tteid v\u00f5i olukordi, mis n\u00e4ivad neid tundeid vallandavat?\n\nPidage meeles, et abi otsimine on okei ja oma tunnetest r\u00e4\u00e4kimine on hea esimene samm. Kui teil on mugav, saame uurida m\u00f5nda strateegiat nende emotsioonide haldamiseks v\u00f5i arutada v\u00f5imalust r\u00e4\u00e4kida vaimse tervise spetsialistiga edasiseks toetamiseks.",
+                    "grok_en": "I'm sorry to hear that you're feeling this way. It's important to address feelings of sadness and depression. Can you tell me more about what you're experiencing? Are there specific thoughts or situations that seem to trigger these feelings?\n\nRemember, it's okay to seek help, and talking about your feelings is a good first step. If you're comfortable, we can explore some strategies to help manage these emotions, or discuss the possibility of speaking with a mental health professional for further support."
+                },
+                {
+                    "user": "\u042f \u0433\u0440\u0443\u0441\u0442\u0435\u043d \u0438 \u043f\u043e\u0434\u0430\u0432\u043b\u0435\u043d",
+                    "user_en": "I am sad and depressed",
+                    "grok": "\u041c\u043d\u0435 \u0436\u0430\u043b\u044c \u0441\u043b\u044b\u0448\u0430\u0442\u044c, \u0447\u0442\u043e \u0442\u044b \u0442\u0430\u043a \u0441\u0435\u0431\u044f \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0448\u044c. \u0412\u0430\u0436\u043d\u043e \u043f\u0440\u0438\u0437\u043d\u0430\u0442\u044c \u0432\u0430\u0448\u0438 \u0447\u0443\u0432\u0441\u0442\u0432\u0430 \u0438 \u0437\u043d\u0430\u0442\u044c, \u0447\u0442\u043e \u0432\u044b \u043d\u0435 \u043e\u0434\u0438\u043d\u043e\u043a\u0438. \u0414\u0435\u043f\u0440\u0435\u0441\u0441\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043e\u0448\u0435\u043b\u043e\u043c\u043b\u044f\u044e\u0449\u0435\u0439, \u043d\u043e \u0435\u0441\u0442\u044c \u0448\u0430\u0433\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u044b \u043c\u043e\u0436\u0435\u043c \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u044f\u0442\u044c, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u043c\u043e\u0447\u044c \u0432\u0430\u043c \u0447\u0443\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0441\u0435\u0431\u044f \u043b\u0443\u0447\u0448\u0435.\n\n1. ** \u041f\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0435 \u043e\u0431 \u044d\u0442\u043e\u043c **: \u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0441\u0432\u043e\u0438\u043c\u0438 \u0447\u0443\u0432\u0441\u0442\u0432\u0430\u043c\u0438 \u0441 \u043a\u0435\u043c -\u0442\u043e, \u043a\u043e\u043c\u0443 \u0432\u044b \u0434\u043e\u0432\u0435\u0440\u044f\u0435\u0442\u0435, \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043e\u0431\u043b\u0435\u0433\u0447\u0435\u043d\u0438\u0435\u043c. \u0415\u0441\u043b\u0438 \u0432\u044b \u043d\u0435 \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0442\u0435 \u0441\u0435\u0431\u044f \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e, \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u044f \u0441 \u0434\u0440\u0443\u0437\u044c\u044f\u043c\u0438 \u0438\u043b\u0438 \u0441\u0435\u043c\u044c\u0435\u0439, \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u043a \u0442\u0435\u0440\u0430\u043f\u0435\u0432\u0442\u0443 \u0438\u043b\u0438 \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u043d\u0442\u0443.\n\n2. ** \u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c **: \u0411\u044b\u043b\u043e \u0431\u044b \u043f\u043e\u043b\u0435\u0437\u043d\u043e \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u044c\u0441\u044f \u0437\u0430 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043a \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0443 \u043f\u043e \u043f\u0441\u0438\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044e. \u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442\u044b \u043c\u043e\u0433\u0443\u0442 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0434\u0435\u043f\u0440\u0435\u0441\u0441\u0438\u0435\u0439, \u0430 \u0438\u043d\u043e\u0433\u0434\u0430 \u0438 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u043c\u0438.\n\n3. ** \u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u0430\u044f \u0440\u0443\u0442\u0438\u043d\u0430 **: \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u0443\u044e \u0440\u0443\u0442\u0438\u043d\u0443. \u042d\u0442\u043e \u043c\u043e\u0436\u0435\u0442 \u0432\u043a\u043b\u044e\u0447\u0430\u0442\u044c \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u044b\u0439 \u0441\u043e\u043d, \u0435\u0434\u0443 \u0438 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0444\u043e\u0440\u043c\u0443 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438. \u0414\u0430\u0436\u0435 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u0448\u0430\u0433\u0438 \u043c\u043e\u0433\u0443\u0442 \u0438\u043c\u0435\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435.\n\n4.\n\n5. ** \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 **: \u0418\u0437\u043e\u043b\u044f\u0446\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u0443\u0445\u0443\u0434\u0448\u0438\u0442\u044c \u0434\u0435\u043f\u0440\u0435\u0441\u0441\u0438\u044e. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432 \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f\u0445, \u0434\u0430\u0436\u0435 \u0435\u0441\u043b\u0438 \u044d\u0442\u043e \u043f\u0440\u043e\u0441\u0442\u043e \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u044b\u0439 \u0437\u0432\u043e\u043d\u043e\u043a \u0438\u043b\u0438 \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430 \u0441 \u0434\u0440\u0443\u0433\u043e\u043c.\n\n6.\n\n\u041f\u043e\u043c\u043d\u0438\u0442\u0435, \u0447\u0442\u043e \u043c\u043e\u0436\u043d\u043e \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u044c\u0441\u044f \u0437\u0430 \u043f\u043e\u043c\u043e\u0449\u044c\u044e, \u0438 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e. \u0425\u043e\u0442\u0435\u043b\u0438 \u0431\u044b \u0432\u044b \u0435\u0449\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u043e\u0431\u0441\u0443\u0434\u0438\u0442\u044c \u043a\u0430\u043a\u0438\u0435 -\u043b\u0438\u0431\u043e \u0438\u0437 \u044d\u0442\u0438\u0445 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0438\u043b\u0438 \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u0430\u0442\u044c \u043e \u0442\u043e\u043c, \u0447\u0435\u0440\u0435\u0437 \u0447\u0442\u043e \u0432\u044b \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u0442\u0435?",
+                    "grok_en": "I'm sorry to hear that you're feeling this way. It's important to acknowledge your feelings and know that you're not alone. Depression can be overwhelming, but there are steps we can take to help you feel better.\n\n1. **Talk About It**: Sharing your feelings with someone you trust can be a relief. If you don't feel comfortable talking to friends or family, consider reaching out to a therapist or counselor.\n\n2. **Professional Help**: It might be beneficial to seek help from a mental health professional. Therapists can provide strategies to manage depression, and sometimes medication can be helpful as well.\n\n3. **Daily Routine**: Try to maintain a regular routine. This can include regular sleep, meals, and some form of physical activity. Even small steps can make a difference.\n\n4. **Mindfulness and Relaxation**: Techniques like meditation, deep breathing, or yoga can help manage symptoms of depression.\n\n5. **Connect with Others**: Isolation can worsen depression. Try to engage in social activities, even if it's just a short phone call or a walk with a friend.\n\n6. **Set Small Goals**: Achieving small, manageable goals can boost your mood and give you a sense of accomplishment.\n\n   Remember, it's okay to seek help, and recovery is possible. Would you like to discuss any of these suggestions further or share more about what you're going through?"
+                },
+                {
+                    "user": "\u0623\u0646\u0627 \u062d\u0632\u064a\u0646 \u0648\u0645\u0643\u062a\u0626\u0628",
+                    "user_en": "I am sad and depressed",
+                    "grok": "\u0623\u0646\u0627 \u0622\u0633\u0641 \u0644\u0633\u0645\u0627\u0639 \u0623\u0646\u0643 \u062a\u0634\u0639\u0631 \u0628\u0647\u0630\u0647 \u0627\u0644\u0637\u0631\u064a\u0642\u0629. \u0645\u0646 \u0627\u0644\u0645\u0647\u0645 \u0627\u0644\u0627\u0639\u062a\u0631\u0627\u0641 \u0628\u0645\u0634\u0627\u0639\u0631\u0643 \u0648\u0645\u0639\u0631\u0641\u0629 \u0623\u0646\u0643 \u0644\u0633\u062a \u0648\u062d\u062f\u0643. \u0647\u0644 \u064a\u0645\u0643\u0646 \u0623\u0646 \u062a\u062e\u0628\u0631\u0646\u064a \u0627\u0644\u0645\u0632\u064a\u062f \u0639\u0645\u0627 \u062a\u0648\u0627\u062c\u0647\u0647\u061f \u0647\u0644 \u0647\u0646\u0627\u0643 \u0623\u0641\u0643\u0627\u0631 \u0623\u0648 \u0645\u0648\u0627\u0642\u0641 \u0645\u062d\u062f\u062f\u0629 \u062a\u0633\u0627\u0647\u0645 \u0641\u064a \u062d\u0632\u0646\u0643 \u0648\u0627\u0644\u0627\u0643\u062a\u0626\u0627\u0628\u061f\n\n\u0642\u062f \u064a\u0643\u0648\u0646 \u0645\u0646 \u0627\u0644\u0645\u0641\u064a\u062f \u0627\u0633\u062a\u0643\u0634\u0627\u0641 \u0647\u0630\u0647 \u0627\u0644\u0645\u0634\u0627\u0639\u0631 \u0628\u0634\u0643\u0644 \u0623\u0643\u0628\u0631 \u060c \u0631\u0628\u0645\u0627 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0645\u062c\u0644\u0629 \u0623\u0648 \u0627\u0644\u062a\u062d\u062f\u062b \u0625\u0644\u0649 \u0645\u0639\u0627\u0644\u062c \u064a\u0645\u0643\u0646\u0647 \u062a\u0642\u062f\u064a\u0645 \u0627\u0644\u062f\u0639\u0645 \u0648\u0627\u0644\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0627\u062a \u0644\u0625\u062f\u0627\u0631\u0629 \u0645\u0634\u0627\u0639\u0631\u0643. \u0625\u0630\u0627 \u0643\u0646\u062a \u062a\u0634\u0639\u0631 \u0628\u0627\u0644\u0625\u0631\u0647\u0627\u0642 \u060c \u0641\u0645\u0646 \u0627\u0644\u0645\u0647\u0645 \u0623\u064a\u0636\u064b\u0627 \u0627\u0644\u062a\u0641\u0643\u064a\u0631 \u0641\u064a \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0645\u0639 \u0623\u062e\u0635\u0627\u0626\u064a \u0627\u0644\u0635\u062d\u0629 \u0627\u0644\u0639\u0642\u0644\u064a\u0629 \u0623\u0648 \u0627\u0644\u062e\u0637 \u0627\u0644\u0633\u0627\u062e\u0646 \u0644\u0644\u0623\u0632\u0645\u0629 \u0644\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0627\u0644\u062f\u0639\u0645 \u0627\u0644\u0641\u0648\u0631\u064a.",
+                    "grok_en": "I'm sorry to hear that you're feeling this way. It's important to acknowledge your feelings and know that you're not alone. Can you tell me more about what you're experiencing? Are there specific thoughts or situations that are contributing to your sadness and depression?\n\nIt might be helpful to explore these feelings further, perhaps by keeping a journal or talking to a therapist who can provide support and strategies to manage your emotions. If you're feeling overwhelmed, it's also important to consider reaching out to a mental health professional or a crisis hotline for immediate support."
                 }
             ]
         }
