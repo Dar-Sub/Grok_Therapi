@@ -207,7 +207,7 @@ def logout():
 def get_models():
     if "username" not in session:
         return jsonify({"error": "Not logged in"}), 401
-    available_models = ["grok", "grok-mini"]
+    available_models = ["grok-2", "grok-beta"]
     return jsonify({"models": available_models})
 
 @app.route("/create_session", methods=["POST"])
