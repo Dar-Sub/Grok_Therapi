@@ -17,8 +17,8 @@ A valid xAI API key (set in .env)
 
 Clone the Repository:
 ```
-git clone https://github.com/yourusername/therapy-grok-chat.git
-cd therapy-grok-chat
+https://github.com/Dar-Sub/Grok_Therapi.git
+cd Grok_Therapi
 ```
 
 
