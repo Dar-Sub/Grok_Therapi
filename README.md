@@ -33,15 +33,6 @@ pip install -r requirements.txt
 ```
 
 
-## Set Up Environment Variables:Create a .env file in the root directory and add:
-```
-FLASK_SECRET_KEY=your-secret-key
-XAI_API_KEY=your-xai-api-key
-PORT=5001
-```
-
-
-
 ## Usage
 
 Run the App Locally:
